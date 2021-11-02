@@ -17,7 +17,7 @@ Answers(this.selectHandler, this.answerText);
       child: 
       Text(answerText),
       onPressed: selectHandler,
-      color: Colors.green,
+      color: Colors.teal,
       textColor: Colors.white,
       ),
     );
