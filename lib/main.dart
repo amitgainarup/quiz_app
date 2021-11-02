@@ -12,20 +12,36 @@ class Quiz extends StatefulWidget {
 class _QuizState extends State<Quiz> {
   var question = [
     {
-      'questionText': 'what is your favorite color?',
+      'questionText': 'What is your favorite color?',
       'answer': ['Red', 'Black', 'Yellow', 'Blue']
     },
     {
-      'questionText': 'what is your favorite animal?',
+      'questionText': 'What is your favorite animal?',
       'answer': ['Cow', 'Dog', 'Cat', 'Tiger']
     },
     {
-      'questionText': 'what is your favorite sports?',
+      'questionText': 'What is your favorite sports?',
       'answer': ['Cricket', 'Football', 'Badminton', 'Cram']
     },
     {
-      'questionText': 'what is your favorite Laptop?',
+      'questionText': 'What is your favorite Laptop?',
       'answer': ['Asus', 'Hp', 'Dell', 'Lenevo']
+    },
+      {
+      'questionText': 'What is your favorite car?',
+      'answer': ['Lamborghini', 'Audi', 'BMW', 'Ferrari']
+    },
+    {
+      'questionText': 'What is your favorite phone?',
+      'answer': ['Iphone', 'Samsung', 'Xaimoi', 'Realme']
+    },
+    {
+      'questionText': 'What is your favorite watch?',
+      'answer': ['Rolex', 'Patek Philippe', 'Audemars Piguet', 'A.Lange & Söhne']
+    },
+    {
+      'questionText': 'What is your favorite clothing brands?',
+      'answer': ['Louis Vuittion', 'Gucci', 'Hermes', 'Prada']
     },
   ];
   var _answerIndex = 0;
