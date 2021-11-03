@@ -15,7 +15,9 @@ Answers(this.selectHandler, this.answerText);
       margin: EdgeInsets.all(5),
       child: RaisedButton(
       child: 
-      Text(answerText),
+      Text(answerText,
+      style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, fontFamily: 'Griffy'),
+      ),
       onPressed: selectHandler,
       color: Colors.teal,
       textColor: Colors.white,

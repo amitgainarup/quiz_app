@@ -43,6 +43,74 @@ class _QuizState extends State<Quiz> {
       'questionText': 'What is your favorite clothing brands?',
       'answer': ['Louis Vuittion', 'Gucci', 'Hermes', 'Prada']
     },
+    {
+      'questionText': '	--------- is the father of computer.',
+      'answer': ['Herman Hollerith', 'Ada Byron', 'Blaise Pascal', 'Charles Babbage']
+    },
+    {
+      'questionText': 'A desktop computer is also known as?',
+      'answer': ['PC', 'Laptop', 'Mainframe', 'Palmtop']
+    },
+    {
+      'questionText': 'CPU is the --------- of computer.',
+      'answer': ['Brain', 'Ear', 'Eye', 'All above these']
+    },
+    {
+      'questionText': '	----------- computer is the most powerful computer.',
+      'answer': [' Mainframe', 'Mini', 'Micro', 'Super']
+    },
+      {
+      'questionText': '	----------- is the physical device of a computer system.',
+      'answer': ['Program', 'Software', 'Hardware', 'Application']
+    },
+    {
+      'questionText': '	IC stands for?',
+      'answer': ['Internal Circuit', 'Internal Computer', 'Integrated Computer', 'Integrated Circuit']
+    },
+    {
+      'questionText': 'Which of the following is not a characteristic of a computer?',
+      'answer': ['Speed', 'Intelligence', 'Automation', 'Versatility']
+    },
+    {
+      'questionText': 'Which of the following is not Computer Hardware?',
+      'answer': ['Mouse', 'Monitor', 'Printer', ' Antivirus']
+    },
+    {
+      'questionText': '	----------- processing is used in mainframe computer.',
+      'answer': ['Parallel', 'Batch', 'Serial', 'Toggle']
+    },
+    {
+      'questionText': 'Computer is a/an ----------',
+      'answer': ['battery', 'input device', 'monitoring device', 'electronic device']
+    },
+    {
+      'questionText': 'Abacus was developed by',
+      'answer': ['China', 'India', 'America', 'Germany']
+    },
+    {
+      'questionText': 'The first computer was programmed using',
+      'answer': ['Assembly language', 'Machine language', 'Source code', 'Object code']
+    },
+      {
+      'questionText': 'The CPU and Primary memory are located on the',
+      'answer': ['output device', 'storage device', 'motherboard', 'expansion board']
+    },
+    {
+      'questionText': 'Numeric pad is in the -----------',
+      'answer': ['speaker', 'keyboard', 'mouse', 'monitor']
+    },
+    {
+      'questionText': 'FORTRAN is useful in ----------- sector.',
+      'answer': [' Office management', 'census analysis', 'business purpose', 'scientific purpose']
+    },
+    {
+      'questionText': '----------- is processed by the computer into information.',
+      'answer': ['Data', 'Processor', 'Numbers', 'Input']
+    },
+    {
+      'questionText': '-------- is the mainboard of computer.',
+      'answer': ['CPU', 'RAM', 'Motherboard', 'ROM']
+    },
   ];
   var _answerIndex = 0;
   void _answerQuestion() {
